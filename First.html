@@ -28,38 +28,46 @@
                 align-items: stretch;
               }
 
-              .backgroun-image{
+              .backgroun-image-container{
                 background-image: url(img.jpg);
                 color: red;
                 font-size: 200%;
+                display: flex;
+                margin: 2px 30%;
+                flex-direction: column;
+                align-items: center;
+                text-align:center;
+                width: 40%;
+                height: 60px;
+                padding-right: 15px;
+                align-items: stretch;
               }
         </style>
         
     <form>
         <div class="note">
-    <input class='note flex-container' name='firstbutton' value="Здесь">
+            <input class='note flex-container' name='firstbutton' value="Здесь">
         </div>
-        <div class="note">
+            <div class="note">
                 <input class='note flex-container' name='firstbutton' value="могла быть">
             </div>
-            <div class="note">
+                <div class="note">
                     <input class='note flex-container' name='firstbutton' value="ваша реклама">
                 </div>
-                <div class="note">
+                    <div class="note">
                         <input class='note flex-container' name='firstbutton' value="но ее нет">
                     </div>
-                    <div class="note">
+                        <div class="note">
                             <input class='note flex-container' name='firstbutton' value="здесь только буквы">
                         </div>
-                        <div class="note">
+                            <div class="note">
                                 <input class='note flex-container' name='firstbutton' value="пока что">
                             </div>
-                            <div class="note">
+                                <div class="note">
                                     <input class='note flex-container' name='firstbutton' value="вот так">
                                 </div>
-                                <div class="note">
-                                        <input class='note flex-container backgroun-image' name='firstbutton' value="а здесь картинка">
-                                       
+                                    <div class="note">
+                                        <input class='note backgroun-image-container' name='firstbutton' value="а здесь картинка">
                                     </div>
     </form>
 </body>
